@@ -1,0 +1,98 @@
+.container
+{
+    width: 500px;
+    height: 650px;
+    margin-top: 80px;
+    margin-left: 450px;
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+   
+}
+input[type="text"]
+{
+    width: 240px;
+    height: 44px;
+    font-size: 18px;
+    border: 1px solid ;
+    margin-top: 70px;
+}
+input[type="password"]
+{
+    width: 240px;
+    height: 44px;
+    font-size: 18px;
+    border: 1px solid ;
+    margin-top: 40px;
+}
+input[type="number"]
+{
+    width: 240px;
+    height: 44px;
+    font-size: 18px;
+    border: 1px solid ;
+    margin-top: 40px;
+}
+input[type="mail"]
+{
+    width: 240px;
+    height: 44px;
+    font-size: 18px;
+    border: 1px solid ;
+    margin-top: 40px;
+}
+.btn
+{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(243, 247, 44);
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+i
+{
+    background-color: rgb(226, 214, 47);
+    padding: 15px;
+    margin-left: 20px;
+}
+h2
+{
+    color: white;
+    text-align: center;
+    margin-top: -0.5;
+}
+.bottom-text
+{
+    color: white;
+    margin-top: 7px;
+
+}
+.bottom-text a
+{
+    text-decoration: none;
+}
+button a
+{
+    text-decoration: none;
+    color: white;
+
+}
+.facebook
+{
+    background-color: blue;
+}
+.google
+{
+    background-color: red;
+}
+button  i{
+    background-color: blue;
+    text-align: left;
+}
+button i::nth-child
+{
+    background-color: red;
+}
